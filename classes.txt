@@ -1,0 +1,6 @@
+circle_bubble
+black_bubble
+joint_bubble
+spike_bubble
+square_bubble
+spiked_bubble
