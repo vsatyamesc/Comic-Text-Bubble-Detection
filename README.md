@@ -19,5 +19,30 @@ There are total of 6 classes.
 
 Since there are very less instances of some classes it doesn't always detect those. But I'm planning to increase the dataset for it's detection.
 
+> classes - circle_bubble black_bubble joint_bubble spike_bubble square_bubble spiked_bubble
+
+![Dataset](Images/Untitled-1.jpg)
+
+## Requirements
+Install Yolo Requirements
+``` pip install ultralytics opencv-python-headless numpy ```
+
+Install Torch and Torchvision for GPU (I trained with Cuda12.1)
+```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121```
+
+## Inference
+```
+from ultralytics import YOLO
+
+# Load the trained model
+model = YOLO(r".\trained\weights\best.pt")
+
+# Run inference on a single image
+results = model(r"E:\comic\009_0.jpg", conf=0.3, iou=0.4)
+results[0].show() #results[0].to_json() to export the bounding box
+```
+
+
+
 
 
