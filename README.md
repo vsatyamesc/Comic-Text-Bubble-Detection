@@ -1,6 +1,7 @@
 # Comic-Text-Bubble-Detection
 Deep Learning model trained using YOLOv11, to detect comic text-bubbles, bubbles, texts etc. It specifically detects bubbles with texts/emojis/contents. Still doesnt support some rare formed bubbles. Trained on 100 custom Labelled Images.
 
+Download the Model from Releases.
 ## Dataset Info
 Images to train were taken from public domains like twitter, pixiv etc. Since Model doesn't recreate any of the artwork I believe it's alright.
 Images without empty bubbles were taken i.e. The bubbles with texts were used to train.
