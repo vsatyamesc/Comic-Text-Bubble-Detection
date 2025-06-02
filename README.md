@@ -1,8 +1,10 @@
 # Comic-Text-Bubble-Detection
 Deep Learning model trained using YOLOv11, to detect comic text-bubbles, bubbles, texts etc. It specifically detects bubbles with texts/emojis/contents. Still doesnt support some rare formed bubbles. Trained on 100 custom Labelled Images.
 
-![Comic Bubble/Panel Ordering AI](https://github.com/vsatyamesc/comic-reading-order/tree/main)
+![:sunglasses::sunglasses: You might wanna check this out, Comic Bubble/Panel Ordering AI](https://github.com/vsatyamesc/comic-reading-order/tree/main)
+
 Download the Model from Releases.
+
 Preview - 
 ![Validation](Images/val_batch2_pred.jpg)
 ## Dataset Info
